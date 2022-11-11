@@ -56,7 +56,8 @@ There are two tables could be merged by ID
 | Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
 
 **Reference:**  
-Resource:<a href="https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/code?datasetId=426827&sortBy=voteCount"><Resource Name-Kaggle> Kaggle Problem Reference</a>  
+Youtube Reference Url:<a href="https://www.youtube.com/watch?v=HuuLEjBE-Ao&list=PL-u09-6gP5ZPOfSPTto4BIDwky-8aP4rQ&index=6"> Youtube Video Reference</a>  
+Resource:<a href="https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/code?datasetId=426827&sortBy=voteCount"> Kaggle Problem Reference</a>  
 Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
 Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Processed Dataset.csv</a>
 
