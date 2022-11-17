@@ -1,24 +1,14 @@
-# 3.3-DS_Project_Template
-
-Descritpion Template
-Person Side Project Portfolio. Also included a few resources on side that I found helpful.
-
-Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
-
-# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>$(Project_Name{Github})[![View My Profile]
+# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>Campus Placement Prediction
 
 <a href="https://github.com/bdfd"><img src="https://img.shields.io/github/followers/bdfd?label=Follow%20Me&logo=github" alt="GitHub Followers" /></a>
-![ViewCount](<https://views.whatilearened.today/views/github/$(github_user)/$(repo_address).svg?cache=remove>)
-![GitHub top language](<https://img.shields.io/github/languages/top/$(github_user)/$(repo_address)?style=flat>)
-![GitHub language count](<https://img.shields.io/github/languages/count/$(github_user)/$(repo_address)?style=flat>)
+![ViewCount](https://views.whatilearened.today/views/github/bdfd/Portfolio_Project_14-Campus_Placement_Prediction.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/bdfd/Portfolio_Project_14-Campus_Placement_Prediction?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/bdfd/Portfolio_Project_14-Campus_Placement_Prediction?style=flat)
 <img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/Finish.svg" alt="bdfd" />
-<img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/On_Progress.svg" alt="bdfd" />
 
 ## Applied Learning Project
 
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Beginner-green.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Advanced-red.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
+<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
 
 **Tools:** Colab/Jupyter Notebook, GitHub
 
@@ -26,48 +16,39 @@ Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
 
 **Purpose:** Data Cleaning, Apply Algorithm
 
-**Algorithm:** Univariate Linear Regression, Multivariate Linear Regression
+**Algorithm:** Logistic Regression, Random Forest Classifier, Support Vector Machines, Decision Tree Classifier, AdaBoost Classifier, Gradient Boosting Classifier
 
-**Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Execdata  
+**Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Execdata
 
-**Projects:** ABC Project Name
+**Projects:** Campus Placement Prediction
 
 **Problem Description**  
-Predict the porfit of startup compnay with folloing fileds
+This data set consists of Placement data, of students in a XYZ campus. It includes secondary and higher secondary school percentage and specialisation. It also includes degree specialisation, type and Work experience and salary offers to the placed students.We will Analyse what factors are playing a major role in order to select a candidate for job recruitment
 
-**Problem Task**  
-Predict the porfit of startup compnay with folloing fileds
+**Problem Variables**
 
-**Problem Variables**  
-There are two tables could be merged by ID
-
-| Field              | Description          | Unit      | dtype               | Comments        |
-| ------------------ | -------------------- | --------- | ------------------- | --------------- |
-| Table 1            | housing.csv          |           | Table Name          | ----------      |
-| Longitude          | Location             |           | Continuous          | ----------      |
-| Latitude           | Location             |           | Continuous          | ----------      |
-| Housing Median Age | Age                  |           | Continuous          | ----------      |
-| Total Rooms        | Total Living Area    |           | Continuous          | ----------      |
-| Total Bedrooms     | Bedroom Area Count   |           | Continuous          | ----------      |
-| Population         | Number of People     |           | Continuous          | ----------      |
-| Households         | Number of Households |           | Continuous          | ----------      |
-| Median Income      | Average Income       |           | Constant            | ----------      |
-| Median House Value | Average House Value  | US Dollar | Binary Category     | Traget Variable |
-| Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
+| Field          | Description                                         | Unit | dtype      | Comments        |
+| -------------- | --------------------------------------------------- | ---- | ---------- | --------------- |
+| Table 1        | Placement_Data_Full_Class.csv                       |      | Table Name | ----------      |
+| sl_no          | Serial Number                                       |      | Continuous | Possible Drop   |
+| gender         | Gender                                              |      | Binary     | ----------      |
+| ssc_p          | Secondary Education Percentage(10th Grade)          |      | Continuous | ----------      |
+| ssc_b          | Board of Education                                  |      | Binary     | ----------      |
+| hsc_p          | Higher Secondary Education Percentage(12th Grade)   |      | Continuous | ----------      |
+| hsc_b          | Board of Eduction                                   |      | Binary     | ----------      |
+| degree_p       | Degree Percentage                                   |      | Continuous | ----------      |
+| degree_t       | Undergrad Degree Type(Field of Education)           |      | Non Binary | ----------      |
+| workex         | Work Experience                                     |      | Binary     | ----------      |
+| etest_p        | Employability Test Percentage(Conducted by College) |      | Continuous | ----------      |
+| specialisation | Post Grad(MBA) - Specialization                     |      | Non Binary | ----------      |
+| mba_p          | MBA Percentage                                      |      | Continuous | ----------      |
+| status         | Status of Placement - Placed/Not Placed             |      | Binary     | Traget Variable |
+| salary         | Salary offered to Corporate Canadidates             |      | Continuous | Possible Drop   |
 
 **Reference:**  
 Youtube Reference Url:<a href="https://www.youtube.com/watch?v=HuuLEjBE-Ao&list=PL-u09-6gP5ZPOfSPTto4BIDwky-8aP4rQ&index=6"> Youtube Video Reference</a>  
-Resource:<a href="https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/code?datasetId=426827&sortBy=voteCount"> Kaggle Problem Reference</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Processed Dataset.csv</a>
-
-<!-- Train Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_x.csv">Train_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_y.csv">Train_y.csv</a>
-Test Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_x.csv">Test_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_y.csv">Test_y.csv</a>   -->
-
-Demo:<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/Salary_Prediction.ipynb">Jupyter Notebook/Colab Link</a>  
-Visualization:<a href="https://github.com/bdfd/Section6.Project04_Customer_Segmentation/blob/main/display%20demo/Clustering_Bivariate.png">Train Result</a>,<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/display%20demo/test%20result.png">Test Result</a>
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_14-Campus_Placement_Prediction/main/dataset/Placement_Data_Full_Class.csv">Original Dataset.csv</a>
+Demo:<a href="https://github.com/bdfd/Portfolio_Project_14-Campus_Placement_Prediction/blob/main/Campus_Placement_Prediction.ipynb">Jupyter Notebook/Colab Link</a>  
 <br>
 
 <div align="center">
