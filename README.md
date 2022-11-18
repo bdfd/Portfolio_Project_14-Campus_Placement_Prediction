@@ -47,7 +47,7 @@ This data set consists of Placement data, of students in a XYZ campus. It includ
 
 **Reference:**  
 Youtube Reference Url:<a href="https://www.youtube.com/watch?v=HuuLEjBE-Ao&list=PL-u09-6gP5ZPOfSPTto4BIDwky-8aP4rQ&index=6"> Youtube Video Reference</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_14-Campus_Placement_Prediction/main/dataset/Placement_Data_Full_Class.csv">Original Dataset.csv</a>
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_14-Campus_Placement_Prediction/main/dataset/Placement_Data_Full_Class.csv">Original Dataset.csv</a>  
 Demo:<a href="https://github.com/bdfd/Portfolio_Project_14-Campus_Placement_Prediction/blob/main/Campus_Placement_Prediction.ipynb">Jupyter Notebook/Colab Link</a>  
 <br>
 
